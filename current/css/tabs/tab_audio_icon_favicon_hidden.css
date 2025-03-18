@@ -12,5 +12,18 @@
 }
 
 .tab-audio-button {
+  --button-size-icon-small: 18px !important;
+  --button-min-height-small: 18px !important;
+  --button-border-color-ghost: unset !important;
+  --button-border-radius: 30px !important;
+  position: relative !important;
+  top: -1px;
   margin-inline-start: -4.5px !important;
+}
+
+.tab-icon-overlay {
+  padding: 0 !important;
+  border: 0 !important;
+  background-position: center !important;
+  fill: currentColor !important;
 }
