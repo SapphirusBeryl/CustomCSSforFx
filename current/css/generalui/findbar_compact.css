@@ -5,7 +5,7 @@
 
 .findbar-container,
 .findbar-container * {
-  padding: 0 !important;
+  padding: 1 !important;
 }
 
 .findbar-container {

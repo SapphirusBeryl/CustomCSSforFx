@@ -18,7 +18,7 @@
   height: 16px !important;
 }
 :is(.browserContainer, #viewSource) .findbar-textbox {
-  font-size: 14px !important;
+  font: 11px 'Anonymous Pro' !important;
 }
 
 :is(.browserContainer,#viewSource) :is(findbar,#FindToolbar) {

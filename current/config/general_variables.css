@@ -13,7 +13,7 @@
   --photon_tabs_tab_height: 28px !important;
 	
   /* custom height for 'classic squared tabs' only */
-  --classic_squared_tabs_tab_height: 26px !important;
+  --classic_squared_tabs_tab_height: 22px !important;
   
   /* set to '0px' for fully classic squared tabs */
   --classic_squared_tabs-border-radius: 3px !important;
@@ -55,7 +55,7 @@
   --results_font_size: var(--general_ui_font_size,10pt) !important; /* 10pt */
   
   /* for urlbar_border_roundness.css */
-  --megabar_border_roundness: 20px !important;
+  --megabar_border_roundness: 0px !important;
   
   /* for top_toolbar_colors.css */
   --top_toolbars_background: hsl(235,33%,19%) !important; /* #0063b1 */ /* hsl(235,33%,19%) was used by old accent color option  */ 

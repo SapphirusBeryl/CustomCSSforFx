@@ -49,7 +49,7 @@
    [!] only use one at a time 
 */
 
-@import "./css/aboutaddons/addons_manager_alternative_appearance.css"; /**/
+/* @import "./css/aboutaddons/addons_manager_alternative_appearance.css"; /**/
 /* @import "./css/aboutaddons/addons_manager_alternative_appearance_aero.css"; /**/	/* <-- AERO colors */
 
 /* @import "./css/aboutaddons/addons_manager_alternative_appearance_compact_categories.css"; /**/
@@ -139,7 +139,7 @@
    [!] only use one at a time 
 */
 
-@import "./css/aboutpreferences/preferences_alternative_appearance.css"; /**/
+/*@import "./css/aboutpreferences/preferences_alternative_appearance.css"; /**/
 /* @import "./css/aboutpreferences/preferences_alternative_appearance_aero.css"; /**/	/* <-- AERO colors */
 /* @import "./css/aboutpreferences/preferences_alternative_appearance_v2.css"; /**/
 
@@ -149,8 +149,8 @@
    ------------------------------
 */
 
-/* @import "./css/aboutpreferences/category_morefrommozilla_hidden.css"; /**/
-/* @import "./css/aboutpreferences/category_nightlyexperiments_hidden.css"; /**/
+@import "./css/aboutpreferences/category_morefrommozilla_hidden.css"; /**/
+@import "./css/aboutpreferences/category_nightlyexperiments_hidden.css"; /**/
 
 
 /* =========================
@@ -170,7 +170,7 @@
    ============
 */
 
-/* @import "./css/aboutconfig/aboutconfig_compact_appearance.css"; /**/
+@import "./css/aboutconfig/aboutconfig_compact_appearance.css"; /**/
 
 
 /* ============
@@ -180,7 +180,7 @@
    [!] only use one at a time
 */
 
-@import "./css/aboutlogins/aboutlogins_alternative_appearance.css"; /**/
+/* @import "./css/aboutlogins/aboutlogins_alternative_appearance.css"; /**/
 /* @import "./css/aboutlogins/aboutlogins_alternative_appearance_aero.css"; /**/
 
 
