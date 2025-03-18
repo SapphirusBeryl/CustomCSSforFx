@@ -118,11 +118,11 @@
 	
 	panel-item[data-l10n-id="never-activate-button"] {
 	  --icon: url("chrome://browser/skin/zoom-out.svg") !important;
-	  background-image: url("chrome://browser/skin/zoom-out.svg") !important;
+	  background-image: url("chrome://global/skin/icons/minus.svg") !important;
 	  background-position: center center !important;
 	  background-repeat: no-repeat !important;
 	}
-
+	
 	panel-item[action="toggle-disabled"][data-l10n-id="disable-addon-button"]:hover,
 	panel-item[action="toggle-disabled"][data-l10n-id="enable-addon-button"]:hover,
 	panel-item[data-l10n-id="remove-addon-button"]:hover,
@@ -135,6 +135,13 @@
 	panel-item[data-l10n-id="always-activate-button"]:hover,
 	panel-item[data-l10n-id="never-activate-button"]:hover {
 	  background-color: var(--grey-30) !important;
+	}
+	
+	@media (prefers-color-scheme: dark) {
+		panel-item {
+		  -moz-context-properties: fill !important;
+		  fill: white !important;
+		}
 	}
 
 	addon-page-options panel-list {
