@@ -832,8 +832,8 @@
    [!] only use one option at a time
 */
 
-@import "./css/generalui/context_bfrsb_labels_without_icons.css"; /**/
-/* @import "./css/generalui/context_bfrsb_labels_with_icons.css"; /**/
+/* @import "./css/generalui/context_bfrsb_labels_without_icons.css"; /**/
+@import "./css/generalui/context_bfrsb_labels_with_icons.css"; /**/
 
 
 /* -------
